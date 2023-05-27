@@ -241,10 +241,11 @@ menu {
   list-style-type: none;
 }
 
-.figure-border {
+.figure-border:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 .container {
@@ -483,6 +484,7 @@ header {
   justify-content: space-between;
   gap: 10px;
   padding: 0;
+  margin-top: 20px;
 }
 
 .footer-icon-item {
@@ -495,8 +497,4 @@ header {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.25);
-}
-
-.icon-group-footer:hover .icon-group-footer:focus {
-  background-color: #2196f3;
 }
