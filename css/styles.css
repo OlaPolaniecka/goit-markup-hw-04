@@ -24,6 +24,24 @@
   color: #2196f3;
 }
 
+.envelope-icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.contact:hover .envelope-icon {
+  fill: #2196f3;
+}
+
+.smartphone-icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.contact:hover .smartphone-icon {
+  fill: #2196f3;
+}
+
 .section-one {
   background: #2f303a;
   width: 1600px;
@@ -107,6 +125,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+  padding-bottom: 16px;
 }
 
 .last-section {
@@ -291,7 +310,7 @@ menu {
 
 .header-contact {
   display: flex;
-  gap: 50px;
+  gap: 30px;
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -346,4 +365,138 @@ header {
 
 .team-block {
   background: #f5f4fa;
+}
+
+.icons-lorem {
+  margin-bottom: 55px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+}
+
+.icon-social-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  margin-left: 32px;
+  margin-right: 32px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.social-icon-color {
+  fill: #afb1b8;
+  margin: 12px;
+}
+
+.social-icon-color:hover,
+.social-icon-color:focus {
+  fill: #ffffff;
+}
+
+.icon-social {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.icon-social:hover,
+.icon-social:focus {
+  background-color: #2196f3;
+}
+
+.icon-social:hover .social-icon-color {
+  fill: #ffffff;
+}
+
+.header-our-clients {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.our-clients {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0;
+}
+
+.icon-logo-color {
+  fill: #afb1b8;
+}
+
+.icon-logo-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.icon-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.icon-logo-item:hover {
+  border: 1px solid #2196f3;
+}
+
+.icon-logo-item:hover .icon-logo-color {
+  fill: #2196f3;
+}
+
+.social-icon-footer {
+  width: 206px;
+  height: 80px;
+  margin-top: 72px;
+  margin-left: 70px;
+}
+
+.join-us {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.two-blocks {
+  display: flex;
+}
+
+.footer-list-icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 0;
+}
+
+.footer-icon-item {
+  fill: #ffffff;
+  margin: 12px;
+}
+
+.icon-group-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.icon-group-footer:hover .icon-group-footer:focus {
+  background-color: #2196f3;
 }
