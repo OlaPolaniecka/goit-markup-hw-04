@@ -511,3 +511,7 @@ header {
 .icon-group-footer:hover {
   background-color: #2196f3;
 }
+
+.icon-background {
+  background-color: #f5f4fa;
+}
